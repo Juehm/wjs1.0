@@ -1,0 +1,281 @@
+.wjs_header {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  font-size: 13px;
+}
+.wjs_header a {
+  color: #666;
+  text-decoration: none;
+}
+.wjs_header .row {
+  text-align: center;
+}
+.wjs_header .row > div:nth-of-type(-n+3) {
+  border-right: 1px solid #ccc;
+}
+.wjs_header .row > div:nth-last-of-type(1) button {
+  outline: none;
+}
+.wjs_header .row > div:nth-last-of-type(1) .btn-danger {
+  padding: 3px 15px;
+}
+.wjs_navbar {
+  margin: 0;
+}
+.wjs_navbar .navbar-brand {
+  height: 70px;
+  line-height: 40px;
+  font-size: 40px;
+}
+.wjs_navbar .navbar-brand span:nth-of-type(1) {
+  color: red;
+}
+.wjs_navbar .navbar-brand span:nth-last-of-type(1) {
+  color: black;
+}
+.wjs_navbar .navbar-toggle {
+  margin-top: 15px;
+}
+.wjs_navbar .navbar-nav > li {
+  height: 70px;
+}
+.wjs_navbar .navbar-nav > li > a {
+  line-height: 40px;
+  font-size: 15px;
+}
+.wjs_navbar .navbar-nav > li > a:hover {
+  border-bottom: 2px solid red;
+  color: #666;
+}
+.cv .pcImg {
+  width: 100%;
+  height: 380px !important;
+  display: block !important;
+  background-size: cover;
+  background-position: center;
+}
+.cv .mobileImg {
+  width: 100%;
+  display: block;
+}
+.cv .mobileImg > img {
+  width: 100%;
+  display: block;
+}
+.wjs_information {
+  padding: 30px 0;
+}
+.wjs_information .media {
+  color: #000;
+}
+.wjs_information .media .media_left,
+.wjs_information .media .media_main {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 30px;
+}
+.wjs_information .media .media_left {
+  padding-right: 10px;
+}
+.wjs_information .media .media_main {
+  font-size: 18px;
+}
+.wjs_information .media:hover {
+  color: red;
+}
+.wjs_information a:hover {
+  text-decoration: none;
+}
+.wjs_make {
+  font-size: 16px;
+  padding: 15px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.wjs_make .col-sm-9 a {
+  color: red;
+}
+.wjs_make .col-sm-3 a {
+  color: #000;
+}
+.wjs_make .col-sm-3 a:hover {
+  text-decoration: none;
+  color: red;
+}
+.wjs_make .col-sm-3 a span:nth-of-type(1) {
+  padding-right: 4px;
+}
+.wjs_product {
+  padding: 20px 0;
+  background-color: #eee;
+}
+.wjs_product .product_nav {
+  overflow: hidden;
+}
+.wjs_product .product_nav .nav-tabs > li.active > a,
+.wjs_product .product_nav .nav-tabs > li.active > a:focus,
+.wjs_product .product_nav .nav-tabs > li.active > a:hover {
+  color: #555;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom: 2px solid red;
+}
+.wjs_product .product_nav .nav {
+  width: 1000px;
+}
+.wjs_product .product_nav .nav li {
+  padding: 0 10px;
+}
+.wjs_product .product_nav .nav a {
+  line-height: 58px;
+  font-size: 16px;
+  color: #555;
+  border-bottom: 2px solid transparent;
+}
+.wjs_product .product_nav .nav a:hover {
+  border-bottom: 2px solid red;
+}
+.wjs_product .coupon {
+  height: 150px;
+  display: flex;
+  margin-top: 15px;
+  box-shadow: 3px 3px 5px 2px #c0c0c0;
+}
+.wjs_product .coupon > .left {
+  flex: 1;
+  background-color: #fff;
+}
+.wjs_product .coupon > .left h4 {
+  text-align: center;
+  font-size: 16px;
+}
+.wjs_product .coupon > .left .coupon_main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8px;
+}
+.wjs_product .coupon > .left .coupon_main > div {
+  width: 50%;
+}
+.wjs_product .coupon > .left .coupon_main > div:nth-of-type(even) {
+  text-align: right;
+}
+.wjs_product .coupon > .right {
+  width: 100px;
+  background-color: #fff;
+  border-left: 1px dashed #ccc;
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+}
+.wjs_product .coupon > .right::before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #eee;
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  box-shadow: 0px -2px 1px 0px #ccc inset;
+}
+.wjs_product .coupon > .right::after {
+  content: '';
+  width: 14px;
+  height: 20px;
+  border-radius: 7px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #eee;
+  position: absolute;
+  bottom: -13px;
+  left: -7px;
+  box-shadow: 0px 8px 3px -2px #ccc inset;
+}
+.wjs_product .coupon > .right > span {
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+}
+.wjs_product .coupon > .right > sub {
+  font-size: 13px;
+  bottom: 0;
+  color: red;
+}
+.wjs_product .coupon.active {
+  color: #fff;
+}
+.wjs_product .coupon.active > .left {
+  background-color: red;
+  position: relative;
+}
+.wjs_product .coupon.active > .left::before {
+  content: '\e915';
+  font-family: wjs;
+  font-size: 30px;
+  position: absolute;
+  left: 0;
+  top: -6px;
+}
+.wjs_product .coupon.active > .right {
+  background-color: red;
+}
+.wjs_product .coupon.active > .right > span,
+.wjs_product .coupon.active > .right sub {
+  color: #fff;
+}
+.wjs_news .wjs_newsTitle {
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.wjs_news .wjs_newsTitle::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  position: absolute;
+  right: -12px;
+  bottom: -6px;
+}
+.wjs_news .nav-tabs .active a {
+  background-color: red;
+}
+.wjs_news .nav-tabs li {
+  margin: 20px 0;
+}
+.wjs_news .nav-tabs li a {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 60px;
+  background-color: #999;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.wjs_news .nav-tabs li a:focus,
+.wjs_news .nav-tabs li a:hover {
+  color: #fff;
+  border: none;
+  background-color: red;
+}
+.wjs_news .wjs_newslist {
+  list-style: none;
+}
+.wjs_news .wjs_newslist li {
+  margin: 25px;
+}
+.wjs_news .wjs_newslist a {
+  font-size: 14px;
+  color: #000;
+}
