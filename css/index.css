@@ -226,6 +226,9 @@
 .wjs_product .coupon.active > .right sub {
   color: #fff;
 }
+.wjs_news {
+  padding: 20px 0;
+}
 .wjs_news .wjs_newsTitle {
   text-align: center;
   font-size: 25px;
@@ -243,11 +246,26 @@
   right: -12px;
   bottom: -6px;
 }
+.wjs_news .navline {
+  border-left: 1px dashed red;
+  height: 100%;
+  position: absolute;
+  left: 45px;
+}
+.wjs_news .nav-tabs {
+  border: none;
+}
 .wjs_news .nav-tabs .active a {
   background-color: red;
 }
 .wjs_news .nav-tabs li {
   margin: 20px 0;
+}
+.wjs_news .nav-tabs li:nth-of-type(1) {
+  margin-top: 0;
+}
+.wjs_news .nav-tabs li:nth-last-of-type(1) {
+  margin-bottom: 0px !important;
 }
 .wjs_news .nav-tabs li a {
   display: block;
@@ -278,4 +296,35 @@
 .wjs_news .wjs_newslist a {
   font-size: 14px;
   color: #000;
+}
+.wjs_footer h3 {
+  text-align: center;
+}
+.wjs_footer ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.wjs_footer ul li {
+  font-size: 70px;
+  padding: 0 10px;
+}
+.wjs_footer ul li a {
+  text-decoration: none;
+  color: red;
+}
+@media screen and (max-width: 992px) {
+  .wjs_news .nav-tabs li {
+    width: 25%;
+    margin: 30px 0 !important;
+  }
+  .wjs_news .nav-tabs li a {
+    margin: 0 auto;
+  }
+  .wjs_news .wjs_newslist {
+    padding: 0;
+  }
 }

@@ -25,13 +25,15 @@ $(function(){
         })
     }
     init()
+
+
     $(window).on('resize',function(){
         var width = $(window).width()
         console.log(bol,width);
         if((!bol && width > 768) || (bol && width < 768)){
-            console.log('分界点触发'); 
-            isMobile = width > 768 ? true:false
-            // init()
+            console.log('分界点触发');   
+            bol = width > 768 ? true:false
+            init()ww
         }
     })
 
